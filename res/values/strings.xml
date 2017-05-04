@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JogoMatematica</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_consulta_dados">ConsultaDados</string>
+    <string name="title_activity_main_tela_inicial">MainTelaInicial</string>
+    <string name="title_activity_visao_pontuacao">VisaoPontuacao</string>
+    <string name="title_activity_visao_define_nome_jogador">VisaoDefineNomeJogador</string>
+    <string name="title_activity_visao_seleciona_jogo">VisaoSelecionaJogo</string>
+    <string name="title_activity_visao_encerra_jogo">VisaoEncerraJogo</string>
+    <string name="title_activity_teste_relatorio">TesteRelatorio</string>
+
+</resources>

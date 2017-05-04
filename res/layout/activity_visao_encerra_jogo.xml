@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundotcc"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jogomatematica.visao.VisaoEncerraJogo" >
+
+    <TextView
+        android:id="@+id/tvNomeJogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="NomeJogador"
+        android:textColor="#0070c0"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNomeJogador"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="Confira sua pontuação a baixo:"
+        android:textSize="35dp" />
+
+      <TextView
+          android:id="@+id/tvErrada"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/tvCerto"
+          android:layout_below="@+id/textView1"
+          android:layout_marginTop="125dp"
+          android:text="Erradas: "
+          android:textColor="#ff0202"
+          android:textSize="35dp" />
+
+      <TextView
+          android:id="@+id/tvCerto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/tvErrada"
+          android:layout_alignLeft="@+id/textView1"
+          android:layout_marginBottom="50dp"
+          android:text="Certas: "
+          android:textColor="#2fc700"
+          android:textSize="35dp" />
+
+      <TextView
+          android:id="@+id/tvTempoAtividade"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/tvErrada"
+          android:layout_below="@+id/tvErrada"
+          android:layout_marginTop="66dp"
+          android:text="Tempo atividade: "
+          android:textSize="25dp" />
+
+      <Button
+          android:id="@+id/btnVoltar"
+          android:layout_width="250dp"
+          android:layout_height="100dp"
+          android:layout_alignRight="@+id/textView1"
+          android:layout_below="@+id/tvTempoAtividade"
+          android:layout_marginTop="82dp"
+          android:onClick="btnVoltar"
+          android:text="Voltar"
+          android:textColor="#ff0066"
+          android:textSize="40px" />
+
+</RelativeLayout>
