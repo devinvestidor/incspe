@@ -13,4 +13,7 @@ Disponibilizar um aplicativo para smartphones contendo jogos educativos para cri
 * Eclipse
 * SQLite
 
+## Tecnologias
+
+[Conheça o projeto](http://karanalpe.com.br/portfolio/incspe/)
 
